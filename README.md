@@ -67,6 +67,3 @@ Contributions to kidCalc are welcome! If you have suggestions or improvements, f
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-Remember to replace `<repository-url>` with the actual URL of your GitHub repository. This acknowledgment provides transparency about the educational context of the project and can also highlight your commitment to applying what you've learned in a practical setting.
