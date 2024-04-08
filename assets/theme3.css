@@ -1,0 +1,26 @@
+.theme-cars {
+  --primary-color: #e63946; /* A softer shade of red */
+  --secondary-color: #2b2d42; /* Midnight Blue, less harsh than black */
+  --accent-color: #f1faee; /* Off-white for a softer contrast */
+  background-image: url("images/cars-background.jpg");
+}
+
+.theme-cars header,
+.theme-dinosaurs #submit-answer-btn,
+.theme-cars #calc-buttons button {
+  background-color: var(--primary-color);
+  color: var(--accent-color); /* Soft contrast for readability */
+}
+
+.theme-cars #login-form-section,
+.theme-cars #kidcalc-section,
+.theme-cars #info-bar {
+  border-color: var(--secondary-color); /* Midnight Blue for borders */
+}
+
+.theme-cars header nav ul li a:hover,
+.theme-cars #calc-buttons button:hover,
+.theme-cars #submit-answer-btn:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color); /* Red on hover for a dynamic effect */
+}

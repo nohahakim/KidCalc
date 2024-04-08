@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KidCalc: Math & Logic for Kids</title>
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" id="theme-style" href="" />
+    <script src="assets/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div id="branding">
+          <a href="#" id="home-link">KidCalc</a>
+        </div>
+        <section id="info-bar" class="info-bar">
+          <p class="info-item" id="welcome-message">Hello Guest!</p>
+          <p class="info-item" id="kidcalc-counter">Score: 0</p>
+        </section>
+        <nav>
+          <ul>
+            <li><a href="#" id="login-link">Login</a></li>
+            <li id="theme-switcher-container">
+              <label for="theme-switcher" class="theme-label">Theme:</label>
+              <select id="theme-switcher">
+                <option value="default">Default</option>
+                <option value="space">Space</option>
+                <option value="dinosaurs">Dinosaurs</option>
+                <option value="cars">Cars</option>
+                <option value="marvel">Marvel</option>
+              </select>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="login-form-section">
+      <form id="login-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required />
+
+        <label for="theme">Preferred Theme:</label>
+        <select id="theme" name="theme">
+          <option value="space">Space</option>
+          <option value="dinosaurs">Dinosaurs</option>
+          <option value="cars">Cars</option>
+          <option value="marvel">Marvel</option>
+        </select>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <section id="kidcalc-section" class="hidden-section">
+      <div id="results-box">Your Score</div>
+
+      <div id="calc-display">
+        <input type="text" id="expression-box" placeholder="Type here..." />
+        <input type="text" id="answer-box" placeholder="Answer" disabled />
+      </div>
+
+      <div id="calc-buttons">
+        <button class="num-btn" value="1">1</button>
+        <button class="num-btn" value="2">2</button>
+        <button class="num-btn" value="3">3</button>
+        <button class="num-btn" value="4">4</button>
+        <button class="num-btn" value="5">5</button>
+        <button class="num-btn" value="6">6</button>
+        <button class="num-btn" value="7">7</button>
+        <button class="num-btn" value="8">8</button>
+        <button class="num-btn" value="9">9</button>
+        <button class="num-btn" value="0">0</button>
+        <button class="op-btn" value="+">+</button>
+        <button class="op-btn" value="-">-</button>
+        <button class="op-btn" value="*">*</button>
+        <button class="op-btn" value="/">/</button>
+
+        <button class="op-btn" value=">">></button>
+        <button class="op-btn" value="<"><</button>
+        <button id="equals-btn" value="=">=</button>
+        <button id="clear-btn">C</button>
+        <button id="delete-btn">Del</button>
+        <button id="reset-btn">Reset</button>
+      </div>
+
+      <button id="submit-answer-btn">Submit</button>
+    </section>
+  </body>
+</html>

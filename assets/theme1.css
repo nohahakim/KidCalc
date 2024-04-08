@@ -1,0 +1,37 @@
+/* Base theme configurations */
+.theme-space,
+.theme-dinosaurs,
+.theme-cars,
+.theme-marvel {
+  /* Ensure the background covers the whole page and doesn't repeat */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Space Theme Enhanced */
+.theme-space {
+  --primary-color: #1b3b6f; /* Interstellar Blue */
+  --secondary-color: #c0c5ce; /* Silvery Moon Grey */
+  --accent-color: #9c27b0; /* Neon Cosmic Purple */
+  background-image: url("images/space-background.jpg");
+}
+
+.theme-space header,
+#theme-switcher,
+.theme-space #submit-answer-btn,
+.theme-space #calc-buttons button {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.theme-space #login-form-section,
+.theme-space #kidcalc-section,
+.theme-space #info-bar {
+  border-color: var(--accent-color);
+}
+
+.theme-space header nav ul li a:hover,
+.theme-space #calc-buttons button:hover,
+.theme-space #submit-answer-btn:hover {
+  background-color: var(--accent-color);
+}

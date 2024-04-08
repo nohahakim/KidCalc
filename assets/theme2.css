@@ -1,0 +1,26 @@
+.theme-dinosaurs {
+  --primary-color: #009688; /* Vibrant Emerald Green */
+  --secondary-color: #ff6f00; /* Deep Amber */
+  --accent-color: #00bcd4; /* Bright Eggshell Blue */
+  background-image: url("images/dinosaurs-background.jpg");
+}
+
+.theme-dinosaurs header,
+#theme-switcher,
+.theme-dinosaurs #submit-answer-btn,
+.theme-dinosaurs #calc-buttons button {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.theme-dinosaurs #login-form-section,
+.theme-dinosaurs #kidcalc-section,
+.theme-dinosaurs #info-bar {
+  border-color: var(--accent-color);
+}
+
+.theme-dinosaurs header nav ul li a:hover,
+.theme-dinosaurs #calc-buttons button:hover,
+.theme-dinosaurs #submit-answer-btn:hover {
+  background-color: var(--accent-color);
+}

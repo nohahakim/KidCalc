@@ -1,0 +1,26 @@
+/* Marvel Theme Reimagined */
+.theme-marvel {
+  --primary-color: #1976d2; /* Gallant Blue */
+  --secondary-color: #d32f2f; /* Power Red */
+  --accent-color: #ffeb3b; /* Vibrant Yellow */
+  background-image: url("images/marvel-background.jpg");
+}
+
+.theme-marvel header,
+.theme-marvel #submit-answer-btn,
+.theme-marvel #calc-buttons button {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.theme-marvel #login-form-section,
+.theme-marvel #kidcalc-section,
+.theme-marvel #info-bar {
+  border-color: var(--accent-color);
+}
+
+.theme-marvel header nav ul li a:hover,
+.theme-marvel #calc-buttons button:hover,
+.theme-marvel #submit-answer-btn:hover {
+  background-color: var(--accent-color);
+}
